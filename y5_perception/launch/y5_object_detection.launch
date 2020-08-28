@@ -1,0 +1,4 @@
+<launch>
+	<node name="y5_detect_objects" pkg="y5_perception" type="y5_detect_objects" /> 
+    <node name="y5_draw_bounding_boxes" pkg="y5_perception" type="y5_draw_bounding_boxes" />	
+</launch>
